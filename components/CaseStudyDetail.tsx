@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { ArrowLeft, ExternalLink, Trophy, Settings, Github, Layers, X, Maximize2 } from 'lucide-react';
+import { ArrowLeft, ExternalLink, Trophy, Settings, Github, Code, Layers, X, Maximize2 } from 'lucide-react';
 import { Project } from '../types';
 
 interface CaseStudyDetailProps {
