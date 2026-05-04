@@ -52,7 +52,7 @@ const CaseStudyDetail: React.FC<CaseStudyDetailProps> = ({ project, onBack }) =>
                   className="max-w-full max-h-full object-contain"
                   referrerPolicy="no-referrer"
                   onError={(e) => {
-                    (e.target as HTMLImageElement).src = `https://images.unsplash.com/photo-1551288049-bbbda536639a?auto=format&fit=crop&q=80&w=1200&h=800&text=${encodeURIComponent(selectedImage.caption)}`;
+                    (e.target as HTMLImageElement).src = `https://images.unsplash.com/photo-1551288049-bbbda4833effb?auto=format&fit=crop&q=80&w=1200&h=800`;
                   }}
                 />
               </div>
@@ -217,7 +217,7 @@ const CaseStudyDetail: React.FC<CaseStudyDetailProps> = ({ project, onBack }) =>
                     className="w-full h-full object-cover object-top group-hover:scale-[1.05] transition-transform duration-700" 
                     referrerPolicy="no-referrer"
                     onError={(e) => {
-                      (e.target as HTMLImageElement).src = `https://images.unsplash.com/photo-1551288049-bbbda536639a?auto=format&fit=crop&q=80&w=1200&h=800&text=${encodeURIComponent(item.caption)}`;
+                      (e.target as HTMLImageElement).src = `https://images.unsplash.com/photo-1551288049-bbbda4833effb?auto=format&fit=crop&q=80&w=1200&h=800`;
                     }}
                   />
                 </div>
